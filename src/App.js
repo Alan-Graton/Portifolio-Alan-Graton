@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import Gitlogo from './Gitlogo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Gitlogo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Site Portifólio de Alan Graton Lourenço de Brito
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Alan-Graton"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Meu GitHub
         </a>
       </header>
     </div>
