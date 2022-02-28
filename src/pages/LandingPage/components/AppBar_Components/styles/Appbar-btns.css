@@ -1,0 +1,16 @@
+/* Ao dimiuir a tela, esconder as tags 'a' e trocar por um botão 'menu' */
+
+a{
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    float: right;
+    padding: 14px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+a:hover {
+    transition: 0.5s;
+    text-shadow: 1px 1px 2px pink, 0 0 1em white, 0 0 0.2em white;
+}
