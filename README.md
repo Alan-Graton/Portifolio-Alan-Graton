@@ -1,9 +1,9 @@
-# Portifólio - Alan Graton Lourenço de Brito
+# PortifÃ³lio - Alan Graton LourenÃ§o de Brito
 ## Assuntos a serem abordados abordados
     - Projetos desenvolvidos
-    - Linguagens de Programação
-    - Formações
-    - Experiências Profissionais
+    - Linguagens de ProgramaÃ§Ã£o
+    - FormaÃ§Ãµes
+    - ExperiÃªncias Profissionais
     - Idiomas
     - Redes Sociais
-Copyright © Alan Graton Lourenço de Brito - 2021
+Copyright Â© Alan Graton LourenÃ§o de Brito - 2022
