@@ -1,37 +1,59 @@
-.idioms-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  grid-gap: 1rem;
-  z-index: 1;
+.container {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
 }
 
-.idioms-cards {
-  cursor: pointer;
-  border: 0.1px solid rgb(255,255,255,0.1);
+.container .card {
+  position: relative;
+
+  width: 250px;
+  height: 250px;
+
+  margin: 10px;
+
   border-radius: 10px;
-  padding: 0.5rem;
-  width: 90%;
-  background-color: rgb(255,255,255,0.06);
-  backdrop-filter: blur(5px);
+
   transition: 0.5s;
+  backdrop-filter: blur(15px);
+}
+
+.container .card .card-content {
+  position: absolute;
+  top: 50;
+  left: 50;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(255, 255, 255,0.05);
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+
+  border-top:     1px solid rgba(255, 255, 255, 0.1);
+  border-bottom:  1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  color: white;
+
   z-index: 1;
+
   overflow: hidden;
-}
-
-.idioms-cards:hover{
-  transform: translatey(-10px);
-  /* transition: 0.2s; */
-  box-shadow: 0px 0px 10px 5px rgb(173, 143, 133);
-  /* box-shadow: 0px 0px 10px 5px rgb(234, 0, 255); */
-  /* background-image: linear-gradient(to bottom right, #bd8f5a 10%, #e78c23 90%); */
   transition: 0.5s;
+  backdrop-filter: blur(15px);
+
 }
 
-/* .idioms-cards-grid .idioms-cards::before{
+.container .card:hover .card-content {
+  letter-spacing: 0.5px;
+}
+
+.container .card .card-content::before {
   content: '';
 
-  position: absolute;
+  position:absolute;
   top: 0;
   left: 0;
 
@@ -43,71 +65,30 @@
   transition: 0.5s;
 }
 
-.idioms-cards-grid .idioms-cards:hover::before{
+.container .card:hover .card-content::before {
   transform: skewX(45deg) translateX(200%);
+}
+
+/* .card {
+  border: 0.1px solid rgb(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 90%;
+  background-color: rgb(255,255,255,0.06);
+  backdrop-filter: blur(5px);
+  transition: 0.5s;
+  z-index: 1;
+  overflow: hidden;
 } */
 
-.idioms-cards-grid .idioms-cards::before{
-  content: '';
-
-  position: absolute;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  bottom: -5px;
-  width: 30px;
-  height: 10px;
-
-  background: #F00;
-
-  border-radius: 10px;
-
+.card:hover{
+  transform: translatey(-10px);
+  /* transition: 0.2s; */
+  box-shadow: 0px 0px 10px 5px rgb(173, 143, 133);
+  /* box-shadow: 0px 0px 10px 5px rgb(234, 0, 255); */
+  /* box-shadow: 0px 0px 10px 5px rgb(255, 145, 0); */
+  /* background-image: linear-gradient(to bottom right, #bd8f5a 10%, #e78c23 90%); */
   transition: 0.5s;
-  transition-delay: 0s;
-}
-
-.idioms-cards-grid .idioms-cards:hover::before{
-  bottom: 0;
-
-    height: 50%;
-    width: 80%;
-
-    border-radius: 30px;
-
-    transition-delay: 0.5s;
-}
-
-.idioms-cards-grid .idioms-cards::after{
-  content: '';
-
-  position: absolute;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  top: -5px;
-
-  width: 30px;
-  height: 10px;
-
-  background: #F00;
-
-  border-radius: 10px;
-
-  transition: 0.5s;
-  transition-delay: 0s;
-}
-
-.idioms-cards-grid .idioms-cards:hover::after{
-  top: 0;
-
-    height: 50%;
-    width: 80%;
-
-    border-radius: 30px;
-
-    transition-delay: 0.5s;
 }
 
 p {
