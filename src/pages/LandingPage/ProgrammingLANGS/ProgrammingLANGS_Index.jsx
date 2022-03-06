@@ -1,32 +1,23 @@
 import React from "react";
 
+// Styles
+import "./styles/styles.css";
+
+// Page Content
+import C_PlusPlus_Exp from "./components/C_PlusPlus/C_PlusPlus_Exp.jsx";
+import Firebase_Exp from "./components/Firebase_Exp/Firebase_Exp.jsx";
+import CSS_Exp from "./components/CSS_Exp/CSS_Exp.jsx";
+import ReactJS_Exp from "./components/ReactJS_Exp/ReactJS_Exp.jsx";
+import SQL_Exp from "./components/SQL_Exp/SQL_Exp.jsx";
+
 function Langs_INDEX() {
   return (
-    <div>
-      <h2>Linguagens de Programação/Tecnologias</h2>
-      <ul>
-        <li>
-          <h3>C++ - Básico</h3>
-        </li>
-        <li>
-          <h3>C# - Básico</h3>
-        </li>
-        <li>
-          <h3>SQL SERVER - Básico</h3>
-        </li>
-        <li>
-          <h3>CSS - Básico</h3>
-        </li>
-        <li>
-          <h3>JavaScript - Básico</h3>
-        </li>
-        <li>
-          <h3>React - Básico</h3>
-        </li>
-        <li>
-          <h3>Firebase{"(Firestore - Autenticação)"} - Básico</h3>
-        </li>
-      </ul>
+    <div className="container">
+      <C_PlusPlus_Exp />
+      {/* <Firebase_Exp /> */}
+      {/* <CSS_Exp /> */}
+      {/* <ReactJS_Exp /> */}
+      {/* <SQL_Exp /> */}
     </div>
   );
 }
