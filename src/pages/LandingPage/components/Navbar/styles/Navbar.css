@@ -1,11 +1,18 @@
-.appBar {
+.navbar {
     width: 100%;
+
     background-color: #fff;
+
     backdrop-filter: blur(10px);
+
     background-color: rgba(201, 194, 194, 0.1);
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 10px;
-    padding: 10px;
+
+    padding: 1px;
+
     position: fixed;
     top: 0;
+
+    z-index: 1;
 }
