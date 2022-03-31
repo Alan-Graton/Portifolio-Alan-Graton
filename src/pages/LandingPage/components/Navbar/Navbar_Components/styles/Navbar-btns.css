@@ -5,9 +5,13 @@ a{
     display: block;
     text-align: center;
     float: right;
-    padding: 14px;
+    padding: 10px;
     font-size: 20px;
     transition: 0.2s;
+}
+
+.btn-about-me {
+    float: left;
 }
 
 a:hover {
