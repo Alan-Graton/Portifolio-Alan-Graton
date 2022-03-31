@@ -1,23 +1,18 @@
 import React from "react";
 
+import "./styles/styles.css";
+
+// Projects
+import HotelPIMheiro from "./components/Hotel/index.jsx";
+import Portal_GrupoIntelsis_Brasil from "./components/Portal_Grupo_Intelsis_Brasil/index.jsx";
+import Site_Portifolio from "./components/Site_portifolio/index.jsx";
+
 function Projects_INDEX() {
   return (
-    <div>
-      <h2>Projetos Desenvolvidos</h2>
-      <ul>
-        <li>
-          <p>
-            2 aplicações desenvolvidas voltadas para{" "}
-            <strong>Gestão Hoteleira</strong> utilizando C# Framework e ASP.NET
-            C# Framework
-          </p>{" "}
-          <br />
-        </li>
-        <li>
-          Desenvolvimento de um site para <strong>Apontamento de Horas</strong>{" "}
-          utilizando ReactJS e Firebase {"(Ainda em desenvolvimento)"}
-        </li>
-      </ul>
+    <div className="projects-container">
+      <Portal_GrupoIntelsis_Brasil />
+      {/* <HotelPIMheiro /> */}
+      {/* <Site_Portifolio /> */}
     </div>
   );
 }

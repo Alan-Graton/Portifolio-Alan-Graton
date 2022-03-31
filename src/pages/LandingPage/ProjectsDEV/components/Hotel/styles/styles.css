@@ -1,0 +1,17 @@
+.used-techs-list {
+    list-style-type: none;
+}
+
+.project-images-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.project-images-forgotPassword {
+    width: 400px;
+    height: 423px;
+}
+
+/* .project-retangular-images {
+    width: 400px;
+} */

@@ -1,0 +1,9 @@
+.projects-container {
+    width: 900px;
+
+    display: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    color: white;
+}
