@@ -1,0 +1,28 @@
+aside {
+    width: 250px;
+}
+
+.profile-picture-container {
+    width: 250px;
+}
+
+.profile-picture {
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.bio-container {
+    margin-left: 15px;
+    margin-right: 15px;
+
+    width: 550px;
+}
+
+.bio-title {
+    color: white;
+}
+
+.bio-paragraph {
+    color: white;
+}
