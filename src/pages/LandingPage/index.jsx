@@ -21,7 +21,7 @@ function LandingPage() {
         <p className="bio-paragraph">
           Sou formado no curso tecnólogo de ADS pela UNIP. Atualmente estou
           empregrado como Estagiário na empresa <strong>Grupo Intelsis Brasil</strong> atualmente atuando como <strong>Consultor CPI</strong> e focando
-          meus estudos em <strong>Web Design</strong> e pretendo começar meus estudos em <strong>Segurança da Informação</strong>.
+          meus estudos em <strong>Web Design</strong>.
         </p>
       </div>
     </>
