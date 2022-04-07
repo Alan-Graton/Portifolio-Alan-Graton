@@ -43,7 +43,10 @@
   overflow: hidden;
   transition: 0.5s;
   backdrop-filter: blur(15px);
+}
 
+.idiom-flag {
+  width: 30%;
 }
 
 .container .card:hover .card-content {
