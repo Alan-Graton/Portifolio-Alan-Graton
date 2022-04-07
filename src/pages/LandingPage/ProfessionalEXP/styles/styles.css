@@ -1,0 +1,43 @@
+.company-name {
+    font-size: 35px;
+}
+
+.profExp-container {
+    width: 100%;
+}
+
+.profExp {
+    width: 100%;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.profExp-company {
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.company-logo {
+    margin-left: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.profExp-activities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.profExp-acivities-description-paragraph {
+    width: 550px;
+}
