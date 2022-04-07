@@ -58,13 +58,13 @@ function Portal_GrupoIntelsis_Brasil() {
       </div>
       <div className="project-images">
         <h3>Login Page</h3>
-        <img src={LoginPage} alt="Portall's Login Page" />
+        <img src={LoginPage} alt="Portal's Login Page" />
         <h3>Home Page</h3>
-        <img src={HomePage} alt="Portall's Home Page" />
+        <img src={HomePage} alt="Portal's Home Page" />
         <h3>Launch Page</h3>
-        <img src={LaunchPage} alt="Portall's Launch Page" />
+        <img src={LaunchPage} alt="Portal's Launch Page" />
         <h3>Query Page</h3>
-        <img src={QueryPage} alt="Portall's Query Page" />
+        <img src={QueryPage} alt="Portal's Query Page" />
       </div>
     </div>
   );
