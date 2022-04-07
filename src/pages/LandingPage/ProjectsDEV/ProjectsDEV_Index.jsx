@@ -11,7 +11,7 @@ function Projects_INDEX() {
   return (
     <div className="projects-container">
       <Portal_GrupoIntelsis_Brasil />
-      {/* <HotelPIMheiro /> */}
+      <HotelPIMheiro />
       {/* <Site_Portifolio /> */}
     </div>
   );
