@@ -5,9 +5,9 @@ import NavBar from "./pages/LandingPage/components/Navbar/Navbar.jsx";
 
 // Navbar Buttons
 import Idioms_INDEX from "./pages/LandingPage/Idioms/Idioms_Index";
-// import ProfEXP_INDEX from "./pages/LandingPage/ProfessionalEXP/ProfessionalEXP_Index";
 import Projects_INDEX from "./pages/LandingPage/ProjectsDEV/ProjectsDEV_Index";
-// import Social_INDEX from "./pages/LandingPage/SocialMEDIA/SocialMEDIA_Index";
+import Social_INDEX from "./pages/LandingPage/SocialMEDIA/SocialMEDIA_Index";
+import ProfEXP_INDEX from "./pages/LandingPage/ProfessionalEXP/ProfessionalEXP_Index.jsx";
 
 // Main Components
 import LandingPage from "./pages/LandingPage/index.jsx";
@@ -20,11 +20,18 @@ function App() {
       </header>
       <main className="App-main">
         {/* <LandingPage /> */}
-        <Projects_INDEX />
-        {/* <Idioms_INDEX /> */}
+        <Idioms_INDEX />
+        {/* <Projects_INDEX /> */}
+        {/* <ProfEXP_INDEX /> */}
+        <Social_INDEX />
       </main>
       <footer className="App-footer">
-        <p className="copyright">© Alan Graton Lourenço de Brito - 2022</p>
+        <p className="copyright">
+          © Alan Graton Lourenço de Brito - 2022 -
+          <a className="contact-link" href="mailto:">
+            graton.alan.@gmail.com
+          </a>
+        </p>
       </footer>
     </div>
   );

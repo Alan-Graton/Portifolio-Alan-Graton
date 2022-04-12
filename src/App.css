@@ -57,5 +57,14 @@
   font-size: 12px;
   float: left;
 
+  display: flex;
+  align-items: center;
   text-align: center;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: white;
+
+  font-size: 12px;
 }
