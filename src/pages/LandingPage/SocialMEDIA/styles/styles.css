@@ -1,0 +1,31 @@
+.social-media-container {
+    position: fixed;
+
+    top: 50%;
+    right: 30px;
+
+    transform: translateY(-50%);
+
+    background-color: rgba(201, 194, 194, 0.1);
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(201, 194, 194, 0.1);
+    border-radius: 10px;
+
+    transition: 0.2s;
+}
+
+.social-media-container li a {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.social-media-container:hover {
+    border: 1px solid rgba(201, 194, 194, 0.726);
+    box-shadow: 1px 0px 10px 1px rgba(201, 194, 194, 0.726);
+    transition: 0.5s;
+}
+
+.social-media-logo {
+    width: 35px;
+}
