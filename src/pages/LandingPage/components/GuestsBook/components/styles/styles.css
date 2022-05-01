@@ -1,0 +1,40 @@
+.guests-book-btn-container {
+    position: fixed;
+
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 50%;
+    left: 30px;
+
+    cursor: pointer;
+
+    background-color: rgba(201, 194, 194, 0.1);
+
+    border-top: 1px solid rgba(201, 194, 194, 0.1);
+    border-right: 1px solid rgba(201, 194, 194, 0.1);
+
+    border-radius: 10px;
+
+    transform: translateY(-200px);
+    transition: 0.2s;
+}
+
+.guests-book-btn-container:hover {
+    border-top: 1px solid rgba(201, 194, 194, 0.5);
+    border-right: 1px solid rgba(201, 194, 194, 0.5);
+
+    background-color: rgba(201, 194, 194, 0.200);
+
+    transition: 0.5s;
+}
+
+.guests-book-btn-container img {
+    width: 70%;
+
+    background: none;
+}

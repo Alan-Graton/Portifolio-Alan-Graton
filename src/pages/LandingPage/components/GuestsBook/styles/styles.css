@@ -1,0 +1,142 @@
+.guests-book-container {
+    width: 550px;
+    height: 480px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 5px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+
+    padding: 0;
+    margin: 5px;
+
+    transition: 0.5s;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px;
+
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+    /* border-left: 2px solid rgba(255, 255, 255, 0.1); */
+    /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
+
+    backdrop-filter: blur(15px);
+
+    transition: 0.5s;
+}
+
+fieldset {
+    border: none;
+}
+
+/* SECTION - User Credentials */
+.section-user-credentials fieldset input {
+    padding: 10px;
+
+    border-radius: 5px;
+
+    border: none;
+    border-top: 2px solid rgba(238, 238, 238, 0.1);
+    border-right: 2px solid rgba(238, 238, 238, 0.1);
+
+    background-color: rgba(138, 138, 157, 0.25);
+
+    caret-color: white;
+    color: white;
+
+    margin: 5px;
+
+    transition: 0.5s;
+}
+
+.section-user-credentials fieldset input:focus {
+    outline: none;
+}
+
+.section-user-credentials fieldset input:hover {
+    border-top: 2px solid rgba(238, 238, 238, 0.363);
+    border-right: 2px solid rgba(238, 238, 238, 0.363);
+
+    transition: 0.5s;
+}
+
+/* SECTION - User Message */
+.section-user-message fieldset textarea {
+    resize: unset;
+
+    width: 340px;
+    height: 200px;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    border: none;
+    border-top: 2px solid rgba(238, 238, 238, 0.1);
+    border-right: 2px solid rgba(238, 238, 238, 0.1);
+
+    background-color: rgba(138, 138, 157, 0.25);
+    caret-color: white;
+    color: white;
+
+    transition: 0.5s;
+}
+
+.section-user-message fieldset textarea:focus {
+    outline: none;
+}
+
+.section-user-message fieldset textarea:hover {
+    border-top: 2px solid rgba(238, 238, 238, 0.363);
+    border-right: 2px solid rgba(238, 238, 238, 0.363);
+
+    transition: 0.5s;
+}
+
+/* FORM Buttons */
+.fieldset-btns-form button {
+    width: 30%;
+    padding: 10px;
+
+    border-radius: 5px;
+    border: none;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+
+    font-size: 15px;
+    font-weight: 400;
+
+    margin: 5px;
+
+    transition: 0.5s;
+}
+
+.fieldset-btns-form button:hover {
+    background-color: rgba(255, 255, 255, 0.178);
+
+    box-shadow: rgba(255, 255, 255, 0.562) 0 0 10px 1px inset;
+
+    transition: 0.5s;
+}
+
+/*  LIGHT HOVER*/
+form:hover {
+    border-top: 2px solid rgba(255, 255, 255, 0.676);
+    border-right: 2px solid rgba(255, 255, 255, 0.676);
+
+    box-shadow: rgba(255, 255, 255, 0.1) 0 0 20px 15px inset,
+                rgba(255, 255, 255, 0.2) 0 0 20px 15px;
+
+    transition: 0.5s;
+}
