@@ -1,7 +1,7 @@
 import React from "react";
 
 // Images
-import german from "./images/german.png";
+import german from "./images/germany.png";
 import spanish from "./images/spanish.png";
 import english from "./images/english.png";
 

@@ -13,7 +13,7 @@ import reactjsLogo from "./images/reactjsLogo.svg";
 function ProfEXP_INDEX() {
   return (
     <div className="exp-container">
-      <div className="aside-test">
+      <div className="company-title">
         <div className="profExp-company">
           <h1 className="company-name">Grupo Intelsis Brasil</h1>
           <img
@@ -40,18 +40,18 @@ function ProfEXP_INDEX() {
             <br />
             <img className="firebase-logo" src={firebaseLogo} alt="Firebase Logo" />
             <img src={reactjsLogo} alt="ReactJS Logo" />
-            Desenvolver um portal de
-            <strong> apontamento de horas trabalhadas </strong> sozinho
+            Desenvolvido individualmente um portal de
+            <strong> apontamento de horas trabalhadas </strong>
             {"(sem ajuda técnica)"}. Foi utilizado ReactJS
             <strong>{"(obrigatório)"}</strong>, Material-UI
             <strong>{"(opcional)"}</strong> e Firebase
-            <strong>{"(obrigatório)"}</strong>
+            <strong>{"(obrigatório)"}</strong>.
             <br />
             <img src={sap_cpiLogo} alt="SAP CPI Logo" />
             Ter a primeira experiência como Consultor CPI em um projeto para a
-            LATAM, onde foi necessário trabalhar com funcionários de outra
-            empresa{"(ECentaCloud)"}, sendo eles do exterior
-            {"(Chile)"}.
+            LATAM, onde foi necessário trabalhar com funcionários de outras
+            empresas{"(ECentaCloud)"}, sendo eles do exterior
+            {"(Chile, EUA e Índia)"}.
             <br />
           </p>
         </div>
