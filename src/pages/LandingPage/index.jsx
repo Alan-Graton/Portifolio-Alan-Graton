@@ -19,8 +19,8 @@ function LandingPage() {
       <div className="bio-container">
         <h1 className="bio-title">Olá, meu nome é Alan Graton!</h1>
         <p className="bio-paragraph">
-          Sou formado no curso tecnólogo de ADS pela UNIP. Atualmente estou
-          empregrado como Estagiário na empresa <strong>Grupo Intelsis Brasil</strong> atualmente atuando como <strong>Consultor CPI</strong> e focando
+          Sou formado no curso de ADS pela UNIP. Atualmente estou
+          trabalhando como Estagiário na empresa <strong>Grupo Intelsis Brasil</strong>, atuando como <strong>Consultor CPI</strong> e focando
           meus estudos em <strong>Web Design</strong>.
         </p>
       </div>
