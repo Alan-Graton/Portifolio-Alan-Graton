@@ -32,13 +32,13 @@ function HotelPIMheiro() {
             <strong>
               Projeto desenvolvido para PIM
               {"(Projeto Integrado Multidisciplinar) "}
-              para gestão de um Hotel
+              para gestão de um Hotel.
             </strong>
           </div>
           <p className="project-descrip-paragraph">
             Os integrantes foram responsáveis por desenvolver toda a
             documentação do Projeto, além dos Protótipos de Telas, Banco de
-            Dados e Sistemas requisitados{"(Sistema Web/Desktop e Mobile)"}
+            Dados e Sistemas requisitados{"(Sistema Web/Desktop e Mobile)"}.
           </p>
           <h2>Tecnologias utilizadas: </h2>
           <div className="project-Hotel-techs">

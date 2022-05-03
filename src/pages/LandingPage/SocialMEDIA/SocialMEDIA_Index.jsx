@@ -11,17 +11,17 @@ function Social_INDEX() {
   return (
     <ul className="social-media-container">
       <li className="social-media">
-        <a href="https://github.com/Alan-Graton">
+        <a href="https://github.com/Alan-Graton" target="_blank">
           <img className="social-media-logo" src={GitHub_Logo} alt="GitHub Logo" />
         </a>
       </li>
       <li className="social-media">
-        <a href="https://www.instagram.com/graton.alan">
+        <a href="https://www.instagram.com/graton.alan" target="_blank">
           <img className="social-media-logo" src={Instagram_Logo} alt="Instagram Logo" />
         </a>
       </li>
       <li className="social-media">
-        <a href="https://www.linkedin.com/in/alan-graton-louren%C3%A7o-de-brito-2695571b5/">
+        <a href="https://www.linkedin.com/in/alan-graton-louren%C3%A7o-de-brito-2695571b5/" target="_blank">
           <img className="social-media-logo" src={LinkedIN_Logo} alt="LinkedIN Logo" />
         </a>
       </li>
