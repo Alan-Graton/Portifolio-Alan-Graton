@@ -35,6 +35,15 @@ form {
     transition: 0.5s;
 }
 
+.book-mark {
+    position: absolute;
+
+    /* top: 30px; */
+    left: 30px;
+
+    width: 50px;
+}
+
 fieldset {
     border: none;
 }
