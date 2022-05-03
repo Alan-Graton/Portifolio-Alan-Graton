@@ -5,10 +5,10 @@ import AppBar_Buttons from "./Navbar_Components/Navbar_Buttons";
 
 import "./styles/Navbar.css";
 
-function NavBar() {
+function NavBar(props) {
   return (
     <div className="navbar">
-      <AppBar_Buttons />
+      <AppBar_Buttons eventClick={props} />
     </div>
   );
 }

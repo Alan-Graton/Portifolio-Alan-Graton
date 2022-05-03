@@ -4,10 +4,10 @@ import "./styles/styles.css";
 
 import book from "./images/book.png";
 
-function GuestsBook_Btn() {
+function GuestsBook_Btn({handleGuestsBookClick}) {
     return(
         <div className="guests-book-btn-container">
-            <img src={book} alt="Guests Book" />
+            <img onClick={handleGuestsBookClick} src={book} alt="Guests Book" />
         </div>
     );
 }
