@@ -26,7 +26,7 @@ function ProfEXP_INDEX() {
       </div>
       <div className="profExp-activities">
         <div className="profExp-acivities-description">
-          <h2>Tecnologias vistas</h2>
+          <h2>Tecnologias utilizadas</h2>
           {/* Descrição das Experiências Profissionais */}
           <p className="profExp-acivities-description-paragraph">
             Foram realizados alguns "desafios" no começo no Estágio para que os
@@ -37,7 +37,7 @@ function ProfEXP_INDEX() {
           </p>
           {/* Experiências Profissionais */}
           <section>
-          <hr style={{ opacity: "10%" }} />
+            <hr style={{ opacity: "10%" }} />
             <img src={azureLogo} alt="Azure Logo" />
             <img src={test} alt="JavaScript Logo" />
             <p>
@@ -47,11 +47,11 @@ function ProfEXP_INDEX() {
             </p>
           </section>
           <section>
-          <hr style={{ opacity: "10%" }} />
+            <hr style={{ opacity: "10%" }} />
             <img src={firebaseLogo} alt="Firebase Logo" />
             <img src={reactjsLogo} alt="ReactJS Logo" />
             <p>
-              Desenvolvido individualmente um portal de
+              Realizado um trabalho individual no desenvolvido de um portal de
               <strong> apontamento de horas trabalhadas </strong>
               {"(sem ajuda técnica)"}. Foi utilizado ReactJS
               <strong>{"(obrigatório)"}</strong>, Material-UI
@@ -60,14 +60,13 @@ function ProfEXP_INDEX() {
             </p>
           </section>
           <section>
-          <hr style={{ opacity: "10%" }} />
+            <hr style={{ opacity: "10%" }} />
             <img src={sap_cpiLogo} alt="SAP Logo" />
             <img src={postmanLogo} alt="Postman Logo" />
             <p>
-              Ter a primeira experiência como Consultor CPI em um projeto para a
-              LATAM, onde foi necessário trabalhar com funcionários de outras
-              empresas{"(ECentaCloud)"}, sendo eles do exterior
-              {"(Chile, EUA e Índia)"}.
+              Primeira experiência de trabalho em equipe como Consultor CPI em
+              um projeto real para a LATAM, com seus colaboradores
+              {"(Chile, EUA e Índia)"} e as empresas <strong>ECentaCloud{"(Chile)"}</strong> e <strong>NTT DATA{"(Tóquio)"}</strong>.
             </p>
           </section>
         </div>
