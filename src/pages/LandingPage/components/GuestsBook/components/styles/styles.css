@@ -20,7 +20,7 @@
     border-top: 1px solid rgba(201, 194, 194, 0.1);
     border-right: 1px solid rgba(201, 194, 194, 0.1);
 
-    border-radius: 10px;
+    border-radius: 50%;
 
     transform: translateY(-200px);
     transition: 0.5s;
@@ -31,6 +31,8 @@
     border-right: 1px solid rgba(201, 194, 194, 0.5);
 
     box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
+
+    border-radius: 35%;
 
     background-color: rgba(201, 194, 194, 0.200);
 
