@@ -4,12 +4,22 @@ aside {
 
 .profile-picture-container {
     width: 250px;
+
+    border-radius: 50%;
 }
 
 .profile-picture {
     width: 100%;
 
-    border-radius: 10px;
+    border-radius: 50%;
+
+    transition: 0.5s;
+}
+
+.profile-picture:hover {
+    border-radius: 35%;
+
+    transition: 0.5s;
 }
 
 .bio-container {
