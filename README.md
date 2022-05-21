@@ -2,8 +2,9 @@
 
 ## TBD(To be Done)
 
-- Site responsivo [50%]
+- Site responsivo [30%]
 - Refatorar página "Projetos" utilizando um Slider, para apresentar as imagens [ ]
+- Hospedar
 
 ## Protótipos de telas
 
