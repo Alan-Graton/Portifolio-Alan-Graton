@@ -21,6 +21,7 @@ function ProfEXP_INDEX() {
         <img
           className="company-logo"
           src={GI_Logo}
+          loading="lazy"
           alt="Grupo Intelsis Brasil Logo"
         />
       </div>
@@ -38,8 +39,8 @@ function ProfEXP_INDEX() {
           {/* Experiências Profissionais */}
           <section>
             <hr style={{ opacity: "10%" }} />
-            <img src={azureLogo} alt="Azure Logo" />
-            <img src={test} alt="JavaScript Logo" />
+            <img src={azureLogo} loading="lazy" alt="Azure Logo" />
+            <img src={test} loading="lazy" alt="JavaScript Logo" />
             <p>
               Escrever um script utiilizando JavaScript para se conectar ao
               Banco de Dados da empresa no Azure e retornar o Payload de uma
@@ -48,8 +49,8 @@ function ProfEXP_INDEX() {
           </section>
           <section>
             <hr style={{ opacity: "10%" }} />
-            <img src={firebaseLogo} alt="Firebase Logo" />
-            <img src={reactjsLogo} alt="ReactJS Logo" />
+            <img src={firebaseLogo} loading="lazy" alt="Firebase Logo" />
+            <img src={reactjsLogo} loading="lazy" alt="ReactJS Logo" />
             <p>
               Realizado um trabalho individual no desenvolvido de um portal de
               <strong> apontamento de horas trabalhadas </strong>
@@ -61,12 +62,14 @@ function ProfEXP_INDEX() {
           </section>
           <section>
             <hr style={{ opacity: "10%" }} />
-            <img src={sap_cpiLogo} alt="SAP Logo" />
-            <img src={postmanLogo} alt="Postman Logo" />
+            <img src={sap_cpiLogo} loading="lazy" alt="SAP Logo" />
+            <img src={postmanLogo} loading="lazy" alt="Postman Logo" />
             <p>
               Primeira experiência de trabalho em equipe como Consultor CPI em
               um projeto real para a LATAM, com seus colaboradores
-              {"(Chile, EUA e Índia)"} e as empresas <strong>ECentaCloud{"(Chile)"}</strong> e <strong>NTT DATA{"(Tóquio)"}</strong>.
+              {"(Chile, EUA e Índia)"} e as empresas{" "}
+              <strong>ECentaCloud{"(Chile)"}</strong> e{" "}
+              <strong>NTT DATA{"(Tóquio)"}</strong>.
             </p>
           </section>
         </div>

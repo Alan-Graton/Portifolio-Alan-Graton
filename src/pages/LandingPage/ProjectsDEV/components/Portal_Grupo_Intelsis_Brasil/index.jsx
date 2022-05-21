@@ -24,6 +24,7 @@ function Portal_GrupoIntelsis_Brasil() {
           <img
             className="grupoIntelsis-logo"
             src={GI_Logo}
+            loading="lazy"
             alt="Grupo Intelsis Brasil Logo"
           />
         </div>
@@ -41,11 +42,13 @@ function Portal_GrupoIntelsis_Brasil() {
           <img
             className="project-usedTechs-img"
             src={ReactJS_Logo}
+            loading="lazy"
             alt="ReactJS Logo"
           />
           <img
             className="project-usedTechs-img"
             src={Firebase_Logo}
+            loading="lazy"
             alt="Firebase Logo"
           />
           <svg width="80px" viewBox="0 0 36 32">
@@ -58,13 +61,13 @@ function Portal_GrupoIntelsis_Brasil() {
       </div>
       <div className="project-images">
         <h3>Login Page</h3>
-        <img src={LoginPage} alt="Portal's Login Page" />
+        <img src={LoginPage} loading="lazy" alt="Portal's Login Page" />
         <h3>Home Page</h3>
-        <img src={HomePage} alt="Portal's Home Page" />
+        <img src={HomePage} loading="lazy" alt="Portal's Home Page" />
         <h3>Launch Page</h3>
-        <img src={LaunchPage} alt="Portal's Launch Page" />
+        <img src={LaunchPage} loading="lazy" alt="Portal's Launch Page" />
         <h3>Query Page</h3>
-        <img src={QueryPage} alt="Portal's Query Page" />
+        <img src={QueryPage} loading="lazy" alt="Portal's Query Page" />
       </div>
     </div>
   );

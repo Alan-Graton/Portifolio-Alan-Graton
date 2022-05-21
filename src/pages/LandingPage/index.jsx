@@ -12,6 +12,7 @@ function LandingPage() {
           <img
             className="profile-picture"
             src={Alan}
+            loading="lazy"
             alt="Alan Graton Profile Picture"
           />
         </div>
@@ -19,9 +20,10 @@ function LandingPage() {
       <div className="bio-container">
         <h1 className="bio-title">Olá, meu nome é Alan Graton!</h1>
         <p className="bio-paragraph">
-          Sou formado no curso de ADS pela UNIP. Atualmente estou
-          trabalhando como Estagiário na empresa <strong>Grupo Intelsis Brasil</strong>, atuando como <strong>Consultor CPI</strong> e focando
-          meus estudos em <strong>Web Design</strong>.
+          Sou formado no curso de ADS pela UNIP. Atualmente estou trabalhando
+          como Estagiário na empresa <strong>Grupo Intelsis Brasil</strong>,
+          atuando como <strong>Consultor CPI</strong> e focando meus estudos em{" "}
+          <strong>Web Design</strong>.
         </p>
       </div>
     </>
